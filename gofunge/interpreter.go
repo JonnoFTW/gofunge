@@ -130,7 +130,7 @@ func (i *Interpeter) Step() {
 			case '.':
 				fmt.Printf("%d ", i.stack.Pop()) // print stack item as int with space
 			case ',':
-				fmt.Print(string(i.stack.Pop())) // print stack item as ascii
+				fmt.Printf("%s", string(rune(i.stack.Pop()))) // print stack item as ascii
 			case '#':
 				// bridge over
 				i.skippingMode = true
