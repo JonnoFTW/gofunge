@@ -1,5 +1,7 @@
 # Gofunge
 
+![main workflow](https://github.com/JonnoFTW/gofunge/actions/workflows/go.yml/badge.svg)
+
 Befunge interpreter written in Golang.
 
 Run it with:
